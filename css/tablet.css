@@ -1,0 +1,54 @@
+@media all and (min-width:768px) {
+    .web{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+
+
+    header .hwrap{
+        height: 100px;
+    }
+    .hwrap2{
+        display: none;
+    }
+
+    header .btn{
+        width: 100px;
+        height: 100px;
+    }
+    header .btn span{
+        width: 30px;
+    }
+    .hwrap h1 img{
+        width: 80px;
+        left: 25px;
+    }
+    header .shop{
+        display: none;
+    }
+    .nwrap{
+        height: 100px;
+    }
+    footer .web{
+        display: none;
+    }
+    footer .mobile{
+        display: block;
+    }
+
+}
+
+@media all and (min-width:600px) {
+    .slide .txt h2{
+        font-size: 32px;
+    }
+    .slide .toosmall{
+        font-size: 28px;
+    }
+    .slide .intxt p{
+        font-size: 18px;
+    }
+
+}

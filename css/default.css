@@ -1,0 +1,168 @@
+@media all and (min-width:1320px) {
+
+    .top{
+        display: none;
+    }
+    .maincon{
+        max-width: 1000px;
+        margin: 48px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mainbn{
+        width: 49%;
+        margin: 0;
+    }
+    .ionwater{
+        width: 49%;
+        height: 735px;
+        background-size: cover;
+        background-position: 230px center;
+    }
+
+    footer .web{
+        display: block;
+    }
+    footer h5{
+        display: none;
+    }
+    footer{
+        
+        padding-bottom: 30px;
+    }
+    .fic{
+        display: flex;
+        max-width: 1320px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .fitem{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    footer img{
+        position: unset;
+        transform: unset;
+        margin-right: 100px;
+        display: block;
+        height: fit-content;
+    }
+    footer .mobile{
+        display: none;
+    }
+    .sns{
+        position: absolute;
+        top: 210px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer p{
+        margin-top: 80px;
+    }
+    footer li{
+        font-size: 14px;
+        margin-bottom: 8px;
+
+    }
+    footer li:last-child{
+        margin-bottom: 0;
+
+    }
+    .hwrap h1 img{
+        left: 50px;
+    }
+    .hwrap2{
+        height: 100px;
+        background-color: #efefef;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .hwrap2 img{
+        width: 80px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50px;
+    }
+    nav{
+        display: none;
+        left: 0;
+        background-color: transparent;
+        height: 100px;
+    }
+    .nwrap{
+        border: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    .gnb{
+        display: flex;
+        margin: 0;
+        height: 100px;
+        line-height: 100px;
+        padding-left: 500px;
+        position: absolute;
+        top: 0;
+        right: 180px;
+    }
+    .gnb>li{
+        display: none;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: 300;
+        margin-left: 30px;
+        color: #3272d6;
+    }
+    .gnb>li>a{
+        display: block;
+        border: 0;
+        width: fit-content;
+    }
+    header .shop{
+        display: block;
+        position: fixed;
+        height: 100px;
+        top: 0;
+        right: 50px;
+        z-index: 999;
+    }
+    header .shop p{
+        background-color: transparent;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 100px;
+        width: fit-content;
+        display: block;
+        color: white;
+        transition: all 0.5s;
+    }
+    nav .inbtn{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .interviewee{
+        display: flex !important;
+        max-width: 1000px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .interviewee img{
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: 0;
+    }
+    .interviewee .txt{
+        width: 45%;
+        margin-left: 40px;
+    }
+    .prev, .next{
+        top: 50%;
+    }
+}
